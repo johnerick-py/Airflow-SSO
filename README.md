@@ -70,7 +70,7 @@ Open the airflow.cfg file as in the image and modify the following two lines as 
 
 Now let's go to the webserver_config.py file, do it as shown in the image
 
-<img src="https://user-images.githubusercontent.com/63692868/229562278-5db88561-2f6d-474a-a385-7f1562d2b730.png" height="400px" width="600px" />
+<img src="https://user-images.githubusercontent.com/63692868/229562278-5db88561-2f6d-474a-a385-7f1562d2b730.png" height="400px" width="700px" />
 
 Note: you can mention the keys as a string directly in the code (not recommended) or create an .env file and export the variables and mention them in the python files.
 
