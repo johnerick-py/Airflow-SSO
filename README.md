@@ -19,7 +19,7 @@ Access the google developer panel at the link ->
  - Provide your app name and support email, if you have a logo you can provide that too
  - In "app domain" provide the following urls:
     (even if some of these domains are not in use, it is good to mention them to avoid complaints from google!)
-    <img src="https://user-images.githubusercontent.com/63692868/229544149-65c5bdea-20d3-4aeb-b775-dcf52bbd2301.png" height="400px" width="400px" />
+    <img src="https://user-images.githubusercontent.com/63692868/229544149-65c5bdea-20d3-4aeb-b775-dcf52bbd2301.png" height="400px" width="600px" />
  
  - In "authorized domains" leave null.
  - Press save and continue
