@@ -63,7 +63,7 @@ Open the airflow.cfg file as in the image and modify the following two lines as 
     - `x_frame_enabled = False`
     - `warn_deployment_exposure = False`
     - if they exist just change the value to false
-    <img src="https://user-images.githubusercontent.com/63692868/229558161-3daa3188-ba5e-464b-a3e7-16a5449bf971.png" height="100px" width="720px" />
+    <img src="https://user-images.githubusercontent.com/63692868/229558161-3daa3188-ba5e-464b-a3e7-16a5449bf971.png" height="100px" width="200px" />
 
 
 ### webserver_config.py
