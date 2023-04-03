@@ -24,7 +24,7 @@ Access the google developer panel at the link ->
  - In "authorized domains" leave null.
  - Press save and continue
  - In "add or remove scopes" select the first two options
-    <img src="https://user-images.githubusercontent.com/63692868/229545601-f0325189-3e47-451a-bc21-56cac9c0379f.png" height="400px" width="400px" />
+    <img src="https://user-images.githubusercontent.com/63692868/229545601-f0325189-3e47-451a-bc21-56cac9c0379f.png" height="400px" width="600px" />
     - Save and continue
  
  - Save your test users and press save and continue
@@ -34,12 +34,12 @@ Access the google developer panel at the link ->
    - Select "OAuth Client ID"
    - Select a option "Web App"
  - In "Authorized JavaScript Sources" provide the following urls
-    - <img src="https://user-images.githubusercontent.com/63692868/229549221-414a37c8-0eda-45a1-9b8c-0434325138c5.png" height="100px" width="720px" />
+    - <img src="https://user-images.githubusercontent.com/63692868/229549221-414a37c8-0eda-45a1-9b8c-0434325138c5.png" height="400px" width="600px" />
 
     - `http://localhost:8080`
     - `http://localhost`
  - In "Authorized Redirect URIs" provide the following urls
-    -  <img src="https://user-images.githubusercontent.com/63692868/229549935-94ea0957-f364-4cb2-84b5-26fde0702706.png" height="100px" width="720px" />
+    -  <img src="https://user-images.githubusercontent.com/63692868/229549935-94ea0957-f364-4cb2-84b5-26fde0702706.png" height="400px" width="600px" />
     - `http://localhost:8080`
     - `http://localhost`
     - `http://localhost:8080/oauth-authorized/google`
@@ -63,14 +63,14 @@ Open the airflow.cfg file as in the image and modify the following two lines as 
     - `x_frame_enabled = False`
     - `warn_deployment_exposure = False`
     - if they exist just change the value to false
-    <img src="https://user-images.githubusercontent.com/63692868/229558161-3daa3188-ba5e-464b-a3e7-16a5449bf971.png" height="100px" width="200px" />
+    <img src="https://user-images.githubusercontent.com/63692868/229558161-3daa3188-ba5e-464b-a3e7-16a5449bf971.png" height="400px" width="600px" />
 
 
 ### webserver_config.py
 
 Now let's go to the webserver_config.py file, do it as shown in the image
 
-<img src="https://user-images.githubusercontent.com/63692868/229562278-5db88561-2f6d-474a-a385-7f1562d2b730.png" height="100px" width="720px" />
+<img src="https://user-images.githubusercontent.com/63692868/229562278-5db88561-2f6d-474a-a385-7f1562d2b730.png" height="400px" width="600px" />
 
 Note: you can mention the keys as a string directly in the code (not recommended) or create an .env file and export the variables and mention them in the python files.
 
@@ -79,9 +79,9 @@ After making all the changes, restart your airflow webserver container with `doc
 
 see the pictures:
 
-<img src="https://user-images.githubusercontent.com/63692868/229563486-13653bb8-d8e6-43c5-bfd0-75bca1972dba.png" height="100px" width="720px" />
-<img src="https://user-images.githubusercontent.com/63692868/229563570-8f6b20ee-0ecc-4c16-96e4-4d8bbf70ddf6.png" height="100px" width="720px" />
-<img src="https://user-images.githubusercontent.com/63692868/229563686-344d9c94-4589-49c8-a9ce-867446044f21.png" height="100px" width="720px" />
+<img src="https://user-images.githubusercontent.com/63692868/229563486-13653bb8-d8e6-43c5-bfd0-75bca1972dba.png" height="400px" width="600px" />
+<img src="https://user-images.githubusercontent.com/63692868/229563570-8f6b20ee-0ecc-4c16-96e4-4d8bbf70ddf6.png" height="400px" width="600px" />
+<img src="https://user-images.githubusercontent.com/63692868/229563686-344d9c94-4589-49c8-a9ce-867446044f21.png" height="400px" width="600px" />
 
 
 
