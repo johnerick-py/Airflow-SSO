@@ -88,4 +88,6 @@ see the pictures:
 
 links used from airflow documentation:
 https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/security/webserver.html
-https://flask-appbuilder.readthedocs.io/en/latest/search.html?q=helm+&check_keywords=yes&area=default
+
+
+https://flask-appbuilder.readthedocs.io/en/latest/security.html
